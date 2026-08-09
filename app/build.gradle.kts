@@ -14,7 +14,6 @@ android {
     defaultConfig {
         applicationId = "com.amrdeveloper.linkhub"
         minSdk = libs.versions.minSdk.get().toInt()
-        targetSdk = libs.versions.targetSdk.get().toInt()
         multiDexEnabled = true
         versionCode = 48
         versionName = "2.2.1"
